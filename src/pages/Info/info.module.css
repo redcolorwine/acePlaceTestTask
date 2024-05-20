@@ -1,0 +1,21 @@
+.info {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.info span {
+    color: teal;
+}
+
+.info>a {
+    color:teal;
+}
+
+.foundItems {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
